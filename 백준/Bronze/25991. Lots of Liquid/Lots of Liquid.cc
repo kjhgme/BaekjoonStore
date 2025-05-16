@@ -25,5 +25,5 @@ int main()
 		sum += (x * x * x);
 	}
 
-	cout << fixed << setprecision(15) << cbrt(sum);
+	cout << fixed << setprecision(15) << pow(sum, 1.0 / 3.0);
 }
