@@ -1,16 +1,23 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+int main()
+{
+	int a, b;
+	cin >> a >> b;
 
-    double a, b;
-    cin >> a >> b;
+	cout << a / b << ".";
 
-    cout.precision(15);
-    cout << a / b;
+	a %= b;
 
+	for (int i = 0; i <= 1000; i++) {
+		if (a == 0)
+			break;
+		a *= 10;
+		cout << a / b;
+		a -= (a / b) * b;
+	}
+    
+	cout << "\n";
 }
