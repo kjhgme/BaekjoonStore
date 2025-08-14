@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 8월 14일 16:21:20
+2025년 8월 14일 16:23:09
 
 ### 문제 설명
 
@@ -22,11 +22,11 @@
 	<li>문자열의 가장 첫 문자를 떼어낸 뒤, 문자열의 맨 뒤에 붙입니다.</li>
 </ul>
 
-<p>귀여운 아기 리프가 이 과정을 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>번 반복한 뒤, 문자열의 최종 상태를 출력하세요.</p>
+<p>귀여운 아기 리프가 이 과정을 $N$번 반복한 뒤, 문자열의 최종 상태를 출력하세요.</p>
 
 ### 입력 
 
- <p>정수 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>이 주어집니다.</p>
+ <p>정수 $N$이 주어집니다.</p>
 
 ### 출력 
 

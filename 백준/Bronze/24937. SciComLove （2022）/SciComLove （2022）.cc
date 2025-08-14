@@ -23,13 +23,12 @@ int main()
 
     string s = "SciComLove";
 
-    for (int i = 0; i < n; ++i)
-    {
-        string s1 = s.substr(0, 1);
-        string s2 = s.substr(1, s.size() - 1);
+    n = n % 10;
 
-        s = s2 + s1;
-    }
+    string s1 = s.substr(0, n);
+    string s2 = s.substr(n, s.size() - n);
+
+    s = s2 + s1;    
 
     cout << s;
 }
