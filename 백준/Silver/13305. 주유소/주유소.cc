@@ -16,8 +16,8 @@ int main(void)
     int n;
     cin >> n;
 
-    vector<int>road(n - 1);
-    vector<int>city(n);
+    vector<long long>road(n - 1);
+    vector<long long>city(n);
 
     for (int i = 0; i < n - 1; ++i)
     {
@@ -29,12 +29,14 @@ int main(void)
         cin >> city[i];
     }
 
-    int sum = 0;
-    for (int i = city.size() - 1; i > 0; --i)
+    long long sum = 0;
+    long long temp = city[0];
+    for (int i = 0; i < n - 1; ++i)
     {
-        int x = *min_element(city.begin(), city.begin() + i);
+        if (city[i] < temp)
+            temp = city[i];
 
-        sum += x * road[i - 1];
+        sum += temp * road[i];
     }
 
     cout << sum;
