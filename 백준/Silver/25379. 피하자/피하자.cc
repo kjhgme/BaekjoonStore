@@ -30,8 +30,8 @@ int main(void)
     
     vector<int>v2 = v;
 
-    int cnt1 = 0;
-    int cnt2 = 0;
+    long long cnt1 = 0;
+    long long cnt2 = 0;
 
     queue<int> temp;
 
