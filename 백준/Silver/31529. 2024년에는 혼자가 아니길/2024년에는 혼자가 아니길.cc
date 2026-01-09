@@ -14,13 +14,13 @@ int main(void)
     long long X, Y;
     cin >> X >> Y;
 
-    if (X > Y) 
+    if (X > Y || 2 * X < Y) 
     {
         cout << -1;
     }
     else
     {
-        long long result = (2024 * (2 * X - Y)) / 4;
+        long long result = (506 * (2 * X - Y));
         cout << result;
     }
 }
